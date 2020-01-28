@@ -13,17 +13,16 @@
 		<div class="contenedor-lista">
 			<h1>Drag and Drop con Javascript</h1>
 
-			<div class="lista">
-				<!-- Persona #1 -->
-				<div class="persona">
+			<div class="lista" id="lista">
+
+				<!-- ? Persona #1 -->
+				<div class="persona" data-id="1">
 					<div class="foto">
 						<img src="img/1.png" alt="">
 					</div>
 					<div class="nombre">
-						<div>
-							<p class="label">Nombre</p>
-							<p class="dato">Carlos Arturo</p>
-						</div>
+						<p class="label">Nombre</p>
+						<p class="dato">Carlos Arturo</p>
 					</div>
 					<div class="edad">
 						<p class="label">Edad</p>
@@ -35,16 +34,14 @@
 					</div>
 				</div>
 				
-				<!-- Persona #2 -->
-				<div class="persona">
+				<!-- ? Persona #2 -->
+				<div class="persona" data-id="2">
 					<div class="foto">
 						<img src="img/2.png" alt="">
 					</div>
 					<div class="nombre">
-						<div>
-							<p class="label">Nombre</p>
-							<p class="dato">Alejandro</p>
-						</div>
+						<p class="label">Nombre</p>
+						<p class="dato">Alejandro</p>
 					</div>
 					<div class="edad">
 						<p class="label">Edad</p>
@@ -56,16 +53,14 @@
 					</div>
 				</div>
 
-				<!-- Persona #3 -->
-				<div class="persona">
+				<!-- ? Persona #3 -->
+				<div class="persona" data-id="3">
 					<div class="foto">
 						<img src="img/3.png" alt="">
 					</div>
 					<div class="nombre">
-						<div>
-							<p class="label">Nombre</p>
-							<p class="dato">Stephanie</p>
-						</div>
+						<p class="label">Nombre</p>
+						<p class="dato">Stephanie</p>
 					</div>
 					<div class="edad">
 						<p class="label">Edad</p>
@@ -77,16 +72,14 @@
 					</div>
 				</div>
 
-				<!-- Persona #4 -->
-				<div class="persona">
+				<!-- ? Persona #4 -->
+				<div class="persona" data-id="4">
 					<div class="foto">
 						<img src="img/4.png" alt="">
 					</div>
 					<div class="nombre">
-						<div>
-							<p class="label">Nombre</p>
-							<p class="dato">Mike</p>
-						</div>
+						<p class="label">Nombre</p>
+						<p class="dato">Mike</p>
 					</div>
 					<div class="edad">
 						<p class="label">Edad</p>
@@ -101,6 +94,7 @@
 		</div>
 	</div>
 
+	<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

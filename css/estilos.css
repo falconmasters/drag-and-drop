@@ -49,13 +49,24 @@ body {
 	padding: 20px;
 	border-radius: 10px;
 	margin-bottom: 20px;
-	
+	cursor: move;
 }
 
 
 
 /* ? Clases para los estilos en los diferentes estados del drag and drop */
+.lista .persona.seleccionado {
+	transform: scale(1.02) rotate(-1deg);
+	box-shadow: 0px 0px 20px rgba(149, 153, 159, .16);
+}
 
+.lista .persona.fantasma {
+	border: 2px dotted #000;
+}
+
+.lista .persona.drag {
+	opacity: 0;
+}
 /* ? ------- */
 
 
